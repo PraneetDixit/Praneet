@@ -18,6 +18,11 @@ a:hover {
 
 
 /*****Website Main Body*****/
+#mainMenu {
+    position:sticky;
+    top:0;
+}
+
 .container {
     width: 850px;
     background-color: white;
@@ -54,7 +59,7 @@ header:hover {
      background: linear-gradient(to left, #feac5e, #c779d0, #4bc0c8);
      text-align: center;
      padding: 7px;
-
+   
 }
 
 .menu a {
